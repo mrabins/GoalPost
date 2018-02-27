@@ -21,7 +21,6 @@ class ViewController: UIViewController {
 
     @IBAction func addGoalButtonWasPressed(_ sender: Any) {
         
-        print("button me")
     
     }
 
