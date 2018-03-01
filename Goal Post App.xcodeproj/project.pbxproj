@@ -13,6 +13,7 @@
 		1303CCD82043D17E003ED964 /* Goal_Post_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1303CCD62043D17E003ED964 /* Goal_Post_App.xcdatamodeld */; };
 		1303CCDA2043D17E003ED964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1303CCD92043D17E003ED964 /* Assets.xcassets */; };
 		1303CCDD2043D17E003ED964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1303CCDB2043D17E003ED964 /* LaunchScreen.storyboard */; };
+		13B3846E2047C73400C68330 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B3846D2047C73400C68330 /* CreateGoalVC.swift */; };
 		13CB711B20451C70002D2A11 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB711A20451C70002D2A11 /* GoalCell.swift */; };
 		13CB711D204528C3002D2A11 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB711C204528C3002D2A11 /* GoalType.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		1303CCD92043D17E003ED964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1303CCDC2043D17E003ED964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1303CCDE2043D17E003ED964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B3846D2047C73400C68330 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		13CB711A20451C70002D2A11 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		13CB711C204528C3002D2A11 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				1303CCD12043D17E003ED964 /* ViewController.swift */,
+				13B3846D2047C73400C68330 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CB711B20451C70002D2A11 /* GoalCell.swift in Sources */,
+				13B3846E2047C73400C68330 /* CreateGoalVC.swift in Sources */,
 				13CB711D204528C3002D2A11 /* GoalType.swift in Sources */,
 				1303CCD22043D17E003ED964 /* ViewController.swift in Sources */,
 				1303CCD02043D17E003ED964 /* AppDelegate.swift in Sources */,

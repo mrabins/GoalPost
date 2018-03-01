@@ -40,7 +40,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = goalTableView.dequeueReusableCell(withIdentifier: "GoalCell") as? GoalCell else{ return UITableViewCell() }
-        cell.configureCell(description: "Eat Salar Twice per week", type: GoalType.longTerm, goalProgressAmount: 2)
+        cell.configureCell(description: "Eat Salad Twice per week", type: GoalType.longTerm, goalProgressAmount: 2)
         
         print(cell)
         
